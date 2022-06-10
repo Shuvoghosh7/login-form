@@ -13,8 +13,8 @@ const Navber = () => {
                         
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets"><button className='btn btn-secondary'>Start Free Trial</button></Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
+                        <Nav.Link href="#StartFree "><button className='btn btn-secondary'>Start Free Trial</button></Nav.Link>
+                        <Nav.Link eventKey={2} href="#navbar">
                             <button className='btn btn-warning'>Login</button>
                         </Nav.Link>
                     </Nav>
