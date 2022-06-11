@@ -28,7 +28,7 @@ const LoginForm = () => {
     return (
         <div class="container" id='navbar'>
             <div class="row d-sm-flex flex-wrap-reverse">
-                <div class="col-lg-4 col-sm-12 col-md-6 gy-5 mt-lg-5">
+                <div class="col-lg-4 col-sm-12 col-md-6 gy-3 mt-lg-5">
                         <h2 className='text-center' style={{ fontFamily: 'sans-seri' }}>Wellcome Back</h2>
                         <form onSubmit={handealSubmit}>
                             <div class="mb-3">
