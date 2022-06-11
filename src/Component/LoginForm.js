@@ -26,10 +26,9 @@ const LoginForm = () => {
 
     }
     return (
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12 col-md-6 mt-5">
-                    
+        <div class="container" id='navbar'>
+            <div class="row d-sm-flex flex-wrap-reverse">
+                <div class="col-lg-4 col-sm-12 col-md-6 gy-5 mt-lg-5">
                         <h2 className='text-center' style={{ fontFamily: 'sans-seri' }}>Wellcome Back</h2>
                         <form onSubmit={handealSubmit}>
                             <div class="mb-3">
@@ -46,14 +45,15 @@ const LoginForm = () => {
                             </div>
                             <button type="submit" class="btn btn-secondary w-100" style={{ fontFamily: 'sans-serif' }}>Login</button>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                <input type="checkbox" class="form-check-input " id="exampleCheck1" />
                                 <label class="form-check-label" for="exampleCheck1">Remenber Password</label>
                             </div>
+                            
                         </form>
 
                    
                 </div>
-                <div class="col-lg-8 col-md-6">
+                <div class="col-lg-8 col-md-6 col-sm-12">
                     <img className='img-fluid' src={picture} alt="" />
                 </div>
             </div>
